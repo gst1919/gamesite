@@ -1,0 +1,112 @@
+/* CSS Variable */
+:root {
+  --teal: #D4ECDD;
+  --darkblue: #112031;
+  --darknavy: #152D35;
+  --navy: #345B63;
+}
+
+/* Common font-family and font-size CSS  */
+body,footer {
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+/* Common text-align CSS */
+.navbar-item li a,
+.footer_logo-container,
+footer {
+  text-align: center;
+}
+
+/* Main Content CSS */
+.main-content {
+  width: 100%;
+  min-height: 70vh;
+  height: auto;
+  position: relative;
+  background-color: var(--darkblue); 
+}
+
+/* Navigation CSS */
+.navbar {
+  background-color: var(--navy);
+  padding-right: 1%;
+}
+
+/* Navigation bar Logo */
+.navbar-brand {
+  float: left;
+  margin-left: 2%;
+}
+
+/* Navigation bar Title */
+.navbar-brand span {
+  color: var(--teal); 
+  margin-left:10px;
+  font-size: 25px;
+}
+
+/* The navigation Container */
+.navigation-container {
+  float: right;
+}
+
+.navbar-item {
+  margin-top: 2%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+/* Navigation item list */
+.navbar-item li {
+  float: left;
+}
+
+/* Navigation item text */
+.navbar-item li a {
+  display: block;
+  color: var(--teal);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* Navigation Hover */
+.navbar-item li a:hover {
+  background-color: var(--darknavy) ;
+  color: var(--teal);
+}
+
+/* Navigation active */
+.navbar-item li a#active {
+  background-color: var(--teal);
+  color: var(--darkblue);
+}
+
+/* Footer CSS   */
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--navy) ;
+  position: relative;
+  width: 100%;
+}
+
+/* Footer text */
+.footer-content {
+  background-color: rgba(0, 0, 0, 0.2); 
+  color: var(--teal);
+}
+
+/* Footer Logo */
+.footer_logo-container {
+  padding: 1%;
+  color: var(--teal);
+}
+
+/* toggle eye CSS */
+#toggleEye {
+  position: absolute;
+  margin-left: 1.5%;
+  padding-top: 1%;
+}

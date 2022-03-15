@@ -1,0 +1,141 @@
+/* Common text alignment CSS */
+.setting_header,
+.form-content,
+.form-label,
+.form_details input,
+.setting_footer,
+.login_Required
+{
+    text-align: center;
+}
+
+/* Common border radius */
+.form-content,
+.form_details input,
+.form_details input:hover,
+.setting_footer button,
+.setting_footer button:hover,
+.loginRequired_btn button, 
+.loginRequired_btn button:hover,
+.login_Required
+{
+    border-radius: 12px;
+}
+
+.main-content{
+    padding-bottom: 5%;
+}
+
+/* Setting Header CSS */
+.setting_header {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 3%;
+    color: var(--teal);
+}
+
+/* Setting form CSS */
+.setting_form {
+    display: flex;
+}
+
+/* Common side pictures CSS */
+.left_side_picture, .right_side_picture {
+    padding-top: 5%;
+    padding-left: 3%;
+    width: 25%;
+}
+
+/* Form Layout CSS */
+.form-layout {
+    width: 50%;
+    position: relative;
+    display: none;
+}
+
+/* Form Content Layout */
+.form-content {
+    border: solid;
+    color: var(--teal); 
+    background-color: var(--navy); 
+    margin-top: 3%;
+    padding: 1.5%;
+}
+
+/* Form Text CSS */
+.form-label {
+    width: 250px;
+}
+
+
+/* Form Input CSS */
+.form_details input {
+    margin-left: 25px;
+    width: 40%;
+    height: 40px;
+}
+
+/* Input Hover CSS */
+.form_details input:hover {
+    background-color:var(--darkblue)  ;
+    color:  var(--teal);
+
+} 
+
+/* Setting Footer CSS */
+.setting_footer {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: auto;
+}
+
+/* Setting Footer Button CSS */
+.setting_footer button, .loginRequired_btn button {
+    background-color: var(--teal);
+    color: var(--darkblue);
+    border-color: var(--darknavy);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+/* Setting Footer Button Hover CSS */
+.setting_footer button:hover, .loginRequired_btn button:hover{
+    background-color:var(--navy);
+    color:  var(--teal);
+    border-color: var(--teal);
+}
+
+/* Form error CSS */
+.form_error{
+    margin-top: 1%;
+    text-align: left;
+    padding-left: 35%;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+
+.login_Required {
+    border: solid;
+    color: var(--teal); 
+    background-color: var(--navy); 
+    margin-top: 3%;
+    padding: 1.5%;
+    display: none;
+    width: 50%;
+    font-size: x-large;
+}
+
+.loginRequired_btn {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: x-large;
+    margin-right: 25%;
+}
+.loginRequired_btn #register_btn {
+    padding-left: 5%;
+}

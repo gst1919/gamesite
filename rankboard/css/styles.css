@@ -1,0 +1,37 @@
+/* Common Padding CSS*/
+.rankboard_header,
+.rankboard_table
+{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Common text alignment CSS */
+.rankboard_header,
+.rankboard_table
+{
+    text-align: center;
+}
+
+/* Rankboard CSS */
+.rankboard_header {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: var(--teal);
+}
+
+/* Rankboard Container CSS*/
+.rankboard_table {
+    padding-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: var(--teal);  
+}
+
+/* Table CSS */
+.rankboard_table table {
+    background-color: var(--navy);
+    border-radius: 12px;
+}
